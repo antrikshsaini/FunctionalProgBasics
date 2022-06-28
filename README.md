@@ -1,6 +1,8 @@
-# Assignment 1, Functional Programming
+# Functional Programming
 
-# TASK 1   Partial function application, a comparison between typescript and elm
+Some Tasks to understand Functional Programing Basics
+
+## TASK 1   Partial function application, a comparison between typescript and elm
 
 ### Background
 
@@ -141,7 +143,7 @@ console.log(apiUrlAction("apikey=456")) //"https://api.example.com/version2/metr
 console.log(apiUrlResource("semetrics")(apiUrlAction("apiKey=2333")) //"https://api.example.com/version2/semetrics?https://api.example.com/version2/metrics?apiKey=2333"
 ```
 
-# TASK 2  Function composition in typescript (`compose`  &  `pipe`))
+## TASK 2  Function composition in typescript (`compose`  &  `pipe`))
 
 > What do you do when you are faced with a difficult problem?
 
@@ -264,7 +266,7 @@ const  dispatch = useDispatch();
 const  addFaqTopic = compose(dispatch, faqTopicActions.addFaqTopic.request);
 ```
 
-# TASK 3  (Generic Implementation (class example))
+## TASK 3  (Generic Implementation (class example))
 
 > Class example of a generic implementation
 
